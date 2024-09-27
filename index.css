@@ -1,0 +1,109 @@
+button{
+    outline: none;
+    border: none;
+}
+.basket{
+    position: relative;
+    background-color: white;
+    padding: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.basket-white {
+    color: black;
+}
+.basket-number{
+    position: absolute;
+    top: -12px;
+    left: -8px;
+    padding: 4px 8px;
+    border-radius: 50%; 
+    color: white;
+    background-color: orange;
+}
+
+.container{
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.product-element{
+    border: 1px solid;
+    padding: 12px;
+    margin: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-btn{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+.product-btn button{
+    font-size: 18px;
+    padding: 8px 12px;
+}
+
+.product-btn span{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.modal-footer{
+    background-color: white;
+    border-radius: 12px;
+}
+.products{
+    margin-top: 60px;
+}
+
+  
+
+
+.delete-btn{
+    color: #8B0000;
+}
+
+.product-img{
+    height: 375px;
+}
+
+.product-shop-btn{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 10px 19px;
+    background-color: #8B0000;
+    border-bottom-left-radius: 10px;
+}
+
+.product-shop-btn i{
+    color: white;
+    font-size: 20px;
+}
+
+/* .product-shop-btn.active i{
+    color: orange ;
+} */
+
+.navbar-custom{
+    background-color: #8B0000;
+    height: 100px;
+}
+.nav-item {
+    margin-right: 30px;
+}
+.nav-item a{
+    color: white;
+    font-weight: 500;
+    
+}
+
+.navbar-brand {
+    padding-left: 120px;
+    font-size: 40px;
+    font-weight: 550;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
